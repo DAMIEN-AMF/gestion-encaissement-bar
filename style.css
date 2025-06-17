@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: url('./assets/background.jpg') no-repeat center center fixed;
+  background-size: cover;
+  color: #fff;
+  text-shadow: 0 0 5px #000;
+}
+.app {
+  padding: 1rem;
+  max-width: 600px;
+  margin: auto;
+  background-color: rgba(0,0,0,0.5);
+  border-radius: 10px;
+}
+.logo {
+  width: 180px;
+  display: block;
+  margin: 0 auto 20px;
+}
+.tabs {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 1rem;
+}
+.tabs button {
+  flex: 1;
+  margin: 0 0.2rem;
+  padding: 0.5rem;
+  background: #007fff;
+  border: none;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+.tabs .active {
+  background: #005fcc;
+}
+.product-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.product {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.quantity-controls {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.quantity-controls input {
+  width: 40px;
+  text-align: center;
+}
+.total {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-top: 1rem;
+  text-align: right;
+}
