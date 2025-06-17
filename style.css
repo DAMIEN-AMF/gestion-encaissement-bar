@@ -1,10 +1,11 @@
 body {
-  margin: 0;
-  font-family: Arial, sans-serif;
   background: url('./assets/background.jpg') no-repeat center center fixed;
   background-size: cover;
+  margin: 0;
+  font-family: Arial, sans-serif;
   color: #fff;
   text-shadow: 0 0 5px #000;
+  min-height: 100vh;
 }
 .app {
   padding: 1rem;
